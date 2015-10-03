@@ -4,16 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="Shannon Babincsak, web dev, web developer, codeinpink, portfolio">
-    <meta name="author" content="Shannon Babincsak">
-
-    <meta name="google-site-verification" content="J1I2enqCVWPWxLX82JE84giuntMY1SztQxGovPSBLc4">
+    <meta name="keywords" content="François Gouteroux, web dev, automation, fgouteroux">
+    <meta name="author" content="François Gouteroux">
 
     <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <!-- FAV and TOUCH ICONS -->
-    <link rel="shortcut icon" href="/img/favicon.png">
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <!-- FAV and TOUCH ICONS 
+    <link rel="shortcut icon" href="/img/favicon.png">-->
 
     <script src="/js/modernizr.custom.js"></script>
 
@@ -50,5 +47,4 @@
     <link href="http://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet" type="text/css">
 
     <link rel="canonical" href="{{ page.url | replace:"index.html","" | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>
