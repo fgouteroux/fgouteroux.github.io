@@ -207,7 +207,7 @@ title: Home
                                 {% assign months_diff = months_diff | push: start_time %}
                                 {% assign months_diff = months_diff | push: "months" %}
 
-                                <h5> {{ experience.start |  date: "%b"}}/{{ experience.end |  date: "%b"}} -{{ months_diff | time_diff }}
+                                <h5> {{ experience.start |  date: "%b"}}/{{ experience.end |  date: "%b"}} - {{ months_diff | time_diff }}
                                 <span class="pull-right">{{ experience.location }}</span>
                                 </h5>
                                 <div class="work-summary">
