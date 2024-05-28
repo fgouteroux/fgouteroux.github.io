@@ -16,6 +16,7 @@ skills:
 
   - title: "Containers"
     detail:
+    - Kubernetes
     - Docker
     - LXC
 
@@ -28,11 +29,23 @@ skills:
 
   - title: Applications & Databases
     detail: 
+      - Envoy
       - Apache/Nginx
       - IIS Server
       - MySQL
       - Oracle
       - MongoDB
+      - Postgresql
+
+  - title: Observability
+    detail:
+      - Grafana
+      - Grafana Mimir
+      - Grafana Loki
+      - Prometheus
+      - Sensu
+      - Metrictank
+      - Graphite
 
   - title: Languages
     detail:
@@ -45,9 +58,12 @@ skills:
     - Bash
     - Python
     - Ruby
+    - Golang
 
   - title: "Cloud & Automatisation"
     detail:
+    - Terraform*
+    - Kubernetes
     - AWS*
     - OpenStack
     - HP OO*
@@ -85,6 +101,38 @@ education:
 
 
 experiences:
+  - title: Automation Consultant
+    company: Ingenico
+    location: Paris
+    start: March 2017
+    end: 
+    summary: |
+      Evolve Build and Maintains observability stack.
+      Automate/develop many tools in GO and python.
+      Deploy/maintains mapr clusters.
+    tags:
+      - Terraform
+      - Golang
+      - Kubernetes
+      - Puppet
+      - Linux
+      - Python
+      - Datalake
+
+  - title: Automation Consultant
+    company: CIB (BNP)
+    location: Paris
+    start: February 2015
+    end: March 2017
+    summary: |
+      Create and evolves the new fully automated and open platform.
+      Help in the delivery of database, bi and applications products.
+    tags:
+      - Python
+      - Puppet
+      - Ansible
+      - Linux
+
   - title: Vmware Consultant
     company: BP2I (BNP)
     location: Paris
