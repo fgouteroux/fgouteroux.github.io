@@ -11,7 +11,7 @@ script:
 
 branches:
   only:
-    - source
+    - main
 
 env:
   global:
