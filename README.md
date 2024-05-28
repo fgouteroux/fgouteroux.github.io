@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fgouteroux/fgouteroux.github.io.svg?branch=source)](https://travis-ci.org/fgouteroux/fgouteroux.github.io)
+[![Build Status](https://travis-ci.org/fgouteroux/fgouteroux.github.io.svg?branch=main)](https://travis-ci.org/fgouteroux/fgouteroux.github.io)
 
 # [fgouteroux.github.io](http://fgouteroux.github.io/)
 
