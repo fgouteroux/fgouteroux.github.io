@@ -12,20 +12,22 @@ title: Home
                 <div class="row">
                     <!-- column 12/12 -->
                     <div class="col-md-12">
-                        <h2 class="section-title"><span><i class="icon-guest"></i>ABOUT ME</span></h2>
+                        <h2 class="section-title"><span><i class="icon-guest"></i>A LITTLE ABOUT ME</span></h2>
                         <!-- intro -->
                         <div class="intro">
                             <h2>
-                                Hello! I have
+                                Hello! I love
                                 <span class="rotate-words">
-                                    <span>16 years of experience.</span>
-                                    <span>11 years in automation.</span>
-                                    <span>worked on big & small companies.</span>
-                                    <span>strong expertise in Golang.</span>
+                                    <span>automation.</span>
+                                    <span>development.</span>
+                                    <span>learning new things.</span>
+                                    <span>Golang and Python.</span>
                                 </span>
+                                <br>
+                                I'm working on automation projects.
+                                <br>
+                                I'm always learning new technologies.
                             </h2>
-                            <p>I worked on a variety of big and small companies since the beginning of my studies.</p>
-                            <p><strong>Top Skills:</strong> Golang • Linux • Puppet • Kubernetes • Terraform</p>
                         </div>
                         <!-- intro -->
                     </div>
@@ -33,42 +35,88 @@ title: Home
                 </div>
                 <!-- row -->
 
-                <h2 class="section-title"><span><i class="fa fa-magic"></i>THINGS ABOUT ME</span></h2>
+                <h2 class="section-title"><span><i class="fa fa-magic"></i>INTERESTS</span></h2>
                 <!-- SERVICES -->
                 <div class="row">
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-6 col-md-3">
                         <!-- service -->
                         <div class="service color2">
-                            <i class="fa fa-lightbulb-o"></i>
-                            <h4>Learning New Things</h4>
-                            <p>What's better than the rush of joy from learning and understanding something new?</p>
-                        </div>
-                        <!-- service -->
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <!-- service -->
-                        <div class="service color3">
                             <i class="fa fa-rocket"></i>
                             <h4>Automation</h4>
                             <p>There is nothing more frustrating and annoying than starting the same thing twice: Automation is the best answer.</p>
                         </div>
                         <!-- service -->
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-6 col-md-3">
+                        <!-- service -->
+                        <div class="service color3">
+                            <i class="fa fa-code"></i>
+                            <h4>Programming</h4>
+                            <p>I love develop some modules or plugins regardless of the language like golang, python or config manager tools like ansible or puppet.</p>
+                        </div>
+                        <!-- service -->
+                    </div>
+                    <div class="col-sm-6 col-md-3">
                         <!-- service -->
                         <div class="service color1">
-                            <i class="fa fa-code"></i>
+                            <i class="fa fa-html5"></i>
                             <h4>Development</h4>
-                            <p>I love developing modules, plugins, and micro apps regardless of the language like Go, Python or config manager tools like Ansible or Puppet.</p>
+                            <p>I like develop some cli tools or api, when needed, because it's simple projects that I can do quickly.</p>
+                        </div>
+                        <!-- service -->
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <!-- service -->
+                        <div class="service color4">
+                            <i class="fa fa-keyboard-o"></i>
+                            <h4>Constantly Learning</h4>
+                            <p>What's better than the rush of joy from learning and understanding something new? </p>
                         </div>
                         <!-- service -->
                     </div>
                 </div>
                 <!-- SERVICES -->
 
+                <h2 class="section-title"><span><i class="fa fa-heart"></i>RANDOM FACTS</span></h2>
+
+                <!-- FUN FACT -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <!-- fun-fact -->
+                        <div class="fun-fact">
+                            <i class="fa fa-graduation-cap"></i>
+                            <h4>I DID ALL MY STUDIES IN APPRENTICESHIP (5 YEARS)</h4>
+                        </div>
+                        <!-- fun-fact -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <!-- fun-fact -->
+                        <div class="fun-fact">
+                            <i class="fa fa-quote-left"></i>
+                            <h4>JACK OF ALL TRADES - SEE MORE LIKE "MANY DIFFERENT SKILLS"</h4>
+                        </div>
+                        <!-- fun-fact -->
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <!-- fun-fact -->
+                        <div class="fun-fact">
+                            <i class="fa fa-motorcycle"></i>
+                            <h4><s>ONE DAY, </s>I HAVE A DUCATI<s> OR SOMETHING LIKE THAT</s> !!</h4>
+                        </div>
+                        <!-- fun-fact -->
+                    </div>
+                </div>
+                <!-- FUN FACT -->
             </div>
         </section>
         <!-- PAGE : ABOUT -->
+
+
+
+
+
 
         <!-- PAGE : CONTACT -->
         <section id="contact" class="page">
@@ -77,7 +125,7 @@ title: Home
                 <div class="row">
                     <!-- column 12/12 -->
                     <div class="col-md-12">
-                        <h2 class="section-title"><span><i class="icon-paper-plane"></i>CONTACT</span></h2>
+                        <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP ME A LINE</span></h2>
 
                         <div class="letter">
                             <div class="stamp">
@@ -85,9 +133,7 @@ title: Home
 	                        </div>
                             <div class="letter-info">
                                 <p><i class="icon-at"></i>francois.gouteroux@gmail.com</p>
-                                <p><i class="icon-location"></i>Paris, France</p>
-                                <p><i class="fa fa-github"></i><a href="https://github.com/fgouteroux" target="_blank">github.com/fgouteroux</a></p>
-                                <p><i class="fa fa-twitter"></i><a href="https://x.com/fgouteroux" target="_blank">x.com/fgouteroux</a></p>
+                                <p><i class="icon-location"></i>Paris</p>
                             </div>
                           </div>
                         <!-- .contact-form -->
@@ -131,10 +177,14 @@ title: Home
         </section>
         <!-- PAGE : CONTACT -->
 
+
+
+
         <!-- PAGE : RESUME -->
         <section id="resume" class="page">
             <div class="content">
                 <!-- CONTENT -->
+
 
                 <!-- row -->
                 <div class="row">
@@ -145,19 +195,25 @@ title: Home
                             <h2><i class="fa fa-briefcase"></i>WORK HISTORY</h2>
                             {% for experience in site.data.resume.experiences %}
                             <div class="event {% if experience.current %}current{% endif %}">
-                                <span class="date">{% if experience.end %}{{ experience.end | date: "%Y" }}{% else %}Present{% endif %}</span>
+                                <span class="date">{{ experience.end | date: "%Y" }}</span>
                                 <h4>{{ experience.title }} <span class="pull-right">{{ experience.company }}</span></h4>
-                                <h5>{{ experience.start | date: "%b %Y" }} - {% if experience.end %}{{ experience.end | date: "%b %Y" }}{% else %}Present{% endif %}
+                                {% assign start_time = experience.start |  date: "%Y,%m" %}
+                                {% assign end_time = experience.end |  date: "%Y,%m" %}
+
+                                {% assign months_diff = "" | split: " "  %}
+                                {% assign months_diff = months_diff | push: end_time %}
+                                {% assign months_diff = months_diff | push: start_time %}
+                                {% assign months_diff = months_diff | push: "months" %}
+
+                                <h5> {{ experience.start |  date: "%b"}}/{{ experience.end |  date: "%b"}} -{{ months_diff | time_diff }}
                                 <span class="pull-right">{{ experience.location }}</span>
                                 </h5>
                                 <div class="work-summary">
                                     <p>{{ experience.summary | markdownify }}</p>
                                 </div>
-                                {% if experience.tags %}
                                 {% for tag in experience.tags %}
                                     <p class="skill-tags">{{ tag }}</p>
                                 {% endfor %}
-                                {% endif %}
                             </div>
                             {% endfor %}
                        </div>
@@ -170,17 +226,16 @@ title: Home
                             <div class="event {% if education.current %}current{% endif %}">
                                 <span class="date">{{ education.end | date: "%Y" }} </span>
                                 {% for degree in education.degrees %}
-                                <h4>{{ degree.name }}{% if degree.concentration %}, {{ degree.concentration }}{% endif %}</h4>
+                                <h4>{{ degree.name }}, {{ degree.concentration }}</h4>
                                 {% endfor %}
                                 <h5>{{ education.school }}</h5>
-                                {% if education.description %}
                                 <p>{{ education.description | markdownify }}</p>
-                                {% endif %}
                             </div>
 
                             {% endfor %}
                        </div>
                        <!-- timeline -->
+
 
                       </div>
                       <!-- col 6/12 -->
@@ -192,7 +247,7 @@ title: Home
 
                             <p class="skill-list">A <span>*</span> indicates at least some level of comfort with the technology.</p>
 
-                            {% for skill in site.data.resume.skills %}
+                            {% for skill in site.data.resume.skills reversed %}
                             <h3>{{ skill.title }}</h3>
                                 {% for detail in skill.detail %}
                                     <p class="skill-unit">{{ detail }}</p>
@@ -215,9 +270,15 @@ title: Home
                             to use these in my upcoming projects:</p>
                             <ul>
                                 <li>React, or a similar framework</li>
-                                <li><s>GO</s> (learned!)</li>
+                                <li><s>GO</s></li>
                             </ul>
 
+                            <!-- Twitter Activity -->
+                            <h2 class="section-title"><span><i class="icon-twitter"></i>TWITTER ACTIVITY</span></h2>
+                                <a class="twitter-timeline" href="https://twitter.com/fgouteroux" data-widget-id="650235895858249728">Tweets de @fgouteroux</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                                </script>
+                            <!-- Twitter Activity -->
                        </div>
                        <!-- col 6/12 -->
 

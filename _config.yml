@@ -1,25 +1,40 @@
 # Site settings
 title: François Gouteroux
-email: francois.gouteroux@gmail.com
-description: >
-  The personal website of François Gouteroux: Automation Geek and IT Challenger
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fgouteroux.github.io" # the base hostname & protocol for your site
-github_username:  fgouteroux
-header_description: "IT Challenger, Automation Geek"
+description: IT Challenger, Automation Geek
+url: "https://fgouteroux.github.io"
+baseurl: ""
 
-# Build settings
-markdown: kramdown
+# Social
+github_username: fgouteroux
+twitter_username: fgouteroux
 
-exclude: ['README.md','Gemfile','.travis.yml']
+# Header
+header_description: IT Challenger, Automation Geek
 
-gems: ['time_difference']
-
-
+# Social Icons
 social-icons:
- - title: GitHub
-   url: https://github.com/fgouteroux
-   class: github
- - title: Twitter
-   url: https://twitter.com/fgouteroux
-   class: twitter-square
+  - title: GitHub
+    url: https://github.com/fgouteroux
+    class: github
+  - title: X (Twitter)
+    url: https://x.com/fgouteroux
+    class: twitter
+  - title: Email
+    url: mailto:francois.gouteroux@gmail.com
+    class: envelope
+
+# Theme
+# theme: jekyll-theme-midnight
+plugins:
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .travis.yml
+  - vendor/
+  - index.html.old
+  - index.md.backup
+  - resume.md

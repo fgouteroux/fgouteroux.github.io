@@ -101,23 +101,60 @@ education:
 
 
 experiences:
+  - title: Platform Engineer / Automation Consultant
+    company: Ingenico Group
+    location: Paris
+    start: December 2019
+    end:
+    current: yes
+    summary: |
+      Built and maintain a secure multi-tenant observability stack using Grafana OSS products (Grafana dashboards, Grafana Mimir, Envoy).
+
+      Developed and released Terraform Providers for Grafana Mimir (Prometheus metrics) and Loki (logs).
+      Developed and evolved Golang Prometheus exporters.
+      Automated deployment and configuration of telemetry stack (Metrictank, Kafka, Zookeeper, Graphite, Grafana) and monitoring stack (Sensu, Moira).
+
+      Upstream GitHub contributions to grafana/agent, grafana/mimir, grafana/terraform-provider-grafana, prometheus/prometheus, and prometheus/alertmanager.
+
+      Developed automation tools in Go to enable internal customers to focus on their business.
+    tags:
+      - Golang
+      - Terraform
+      - Grafana
+      - Mimir
+      - Prometheus
+      - Kubernetes
+      - Envoy
+      - Python
+      - Puppet
+      - Redis
+      - RabbitMQ
+      - S3
+
   - title: Automation Consultant
-    company: Ingenico
+    company: Ingenico Group
     location: Paris
     start: March 2017
-    end: 
+    end: December 2019
     summary: |
-      Evolve Build and Maintains observability stack.
-      Automate/develop many tools in GO and python.
-      Deploy/maintains mapr clusters.
+      Advanced automation and infrastructure self-service initiatives for Dev and R&D teams.
+
+      Developed Python tools: f5manager (F5 configuration management), foreman-clush (shell command execution), and itlab (web interface for user creation).
+
+      WSO2: Automated deployment and configuration in HA, developed Python microservice for monitoring.
+
+      Datalake: Automated deployment and configuration of multiple MapR clusters from LAB to production, handled operational maintenance, upgrades, and scalability. Developed Python tool for Spark application deployment on MapR clusters.
     tags:
-      - Terraform
-      - Golang
-      - Kubernetes
+      - MapR
+      - Hadoop
+      - Spark
+      - Hive
       - Puppet
-      - Linux
       - Python
-      - Datalake
+      - Elasticsearch
+      - Java
+      - F5
+      - WSO2
 
   - title: Automation Consultant
     company: CIB (BNP)
