@@ -1,0 +1,56 @@
+[
+    {
+        "role": "Platform Engineer / Automation Consultant",
+        "company": "Ingenico Group",
+        "summary": "Built and maintain a secure multi-tenant observability stack using Grafana OSS products (Grafana dashboards, Grafana Mimir, Envoy).\n\n- Developed and released Terraform Providers for [Grafana Mimir](https://github.com/fgouteroux/terraform-provider-mimir) (Prometheus metrics) and [Loki](https://github.com/fgouteroux/terraform-provider-loki) (logs)\n- Developed and evolved Golang Prometheus exporters\n- Automated deployment and configuration of telemetry stack (Metrictank, Kafka, Zookeeper, Graphite, Grafana) and monitoring stack (Sensu, Moira)\n- Upstream GitHub contributions to [grafana/agent](https://github.com/grafana/agent), [grafana/mimir](https://github.com/grafana/mimir), [grafana/terraform-provider-grafana](https://github.com/grafana/terraform-provider-grafana), [prometheus/prometheus](https://github.com/prometheus/prometheus), and [prometheus/alertmanager](https://github.com/prometheus/alertmanager)\n- Developed automation tools in Go to enable internal customers to focus on their business\n\n**Technologies:** Golang, Terraform, Grafana, Mimir, Prometheus, Kubernetes, Envoy, Python, Puppet, Redis, RabbitMQ, S3",
+        "range": "December 2019 - Present"
+    },
+    {
+        "role": "Automation Consultant",
+        "company": "Ingenico Group",
+        "summary": "Advanced automation and infrastructure self-service initiatives for Dev and R&D teams.\n\n- Developed Python tools: f5manager (F5 configuration management), foreman-clush (shell command execution), and itlab (web interface for user creation)\n- WSO2: Automated deployment and configuration in HA, developed Python microservice for monitoring\n- Datalake: Automated deployment and configuration of multiple MapR clusters from LAB to production\n- Developed Python tool for Spark application deployment on MapR clusters\n\n**Technologies:** MapR, Hadoop, Spark, Hive, Puppet, Python, Elasticsearch, Java, F5, WSO2",
+        "range": "March 2017 - December 2019"
+    },
+    {
+        "role": "Automation Consultant",
+        "company": "CIB (BNP)",
+        "summary": "Create and evolves the new fully automated and open platform. Help in the delivery of database, BI and applications products.\n\n**Technologies:** Python, Puppet, Ansible, Linux",
+        "range": "February 2015 - March 2017"
+    },
+    {
+        "role": "Vmware Consultant",
+        "company": "BP2I (BNP)",
+        "summary": "Infrastructure automation based on Vblock Systems.\n\n**Technologies:** VRO/VRA, Cisco UCS",
+        "range": "October 2014 - February 2015"
+    },
+    {
+        "role": "AWS Consultant",
+        "company": "VEOLIA",
+        "summary": "Extension of Veolia infrastructure on Amazon as part of a proof of concept.\n\n**Technologies:** AWS, Python",
+        "range": "August 2014 - October 2014"
+    },
+    {
+        "role": "Puppet Consultant",
+        "company": "DEVERYWARE",
+        "summary": "Automation and management of servers configurations with Puppet for the deployment of the new production platform.\n\n**Technologies:** Puppet, Beaker, Jenkins",
+        "range": "May 2014 - September 2014"
+    },
+    {
+        "role": "OpenStack Consultant",
+        "company": "ERDF",
+        "summary": "Implementation of OpenStack and Puppet model as part of an automation process of ERDF infrastructure.\n\n**Technologies:** Openstack, Puppet",
+        "range": "April 2014 - May 2014"
+    },
+    {
+        "role": "Cloud Consultant",
+        "company": "PUBLICIS",
+        "summary": "Setting up a private cloud offers for web agency with HP Products.\n\n**Technologies:** HP OO, HP CSA",
+        "range": "January 2014 - April 2014"
+    },
+    {
+        "role": "Technical Consultant",
+        "company": "INTEGRA",
+        "summary": "Support and advice on the establishment of fifty IAAS deals accessible to businesses.\n\n**Technologies:** HP OO, HP CSA",
+        "range": "November 2013 - January 2014"
+    }
+]

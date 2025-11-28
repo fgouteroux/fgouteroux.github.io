@@ -1,0 +1,66 @@
+[
+    {
+        "name": "terraform-provider-mimir",
+        "description": "This terraform provider allows you to interact with grafana mimir.",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/terraform-provider-mimir",
+        "stars": "⭐",
+        "topics": ["terraform", "grafana-mimir", "terraform-provider"]
+    },
+    {
+        "name": "terraform-provider-loki",
+        "description": "This terraform provider allows you to interact with grafana loki.",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/terraform-provider-loki",
+        "stars": "⭐",
+        "topics": ["terraform", "grafana-loki", "terraform-provider"]
+    },
+    {
+        "name": "acme-manager",
+        "description": "Manage acme certificates and store them to vault",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/acme-manager",
+        "stars": "⭐",
+        "topics": ["acme", "vault", "certificates"]
+    },
+    {
+        "name": "sshot",
+        "description": "Lightweight ansible in GO.",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/sshot",
+        "stars": "⭐",
+        "topics": ["ansible", "golang", "automation"]
+    },
+    {
+        "name": "foreman_exporter",
+        "description": "A Prometheus exporter that exposes Foreman metrics with caching and high availability support.",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/foreman_exporter",
+        "stars": "⭐",
+        "topics": ["prometheus", "foreman", "exporter", "monitoring"]
+    },
+    {
+        "name": "slam",
+        "description": "Send alertmanager alerts notifications to slack without creating webhook url for each slack channel.",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/slam",
+        "stars": "⭐",
+        "topics": ["alertmanager", "slack", "notifications"]
+    },
+    {
+        "name": "promk",
+        "description": "Prometheus Keepalive Agent - sends an up metric to a Prometheus remote-write endpoint at regular intervals.",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/promk",
+        "stars": "⭐",
+        "topics": ["prometheus", "monitoring", "keepalive"]
+    },
+    {
+        "name": "sectigo-client",
+        "description": "An (unofficial) client for the sectigo Web-API.",
+        "language": "Go",
+        "url": "https://github.com/fgouteroux/sectigo-client",
+        "stars": "⭐",
+        "topics": ["sectigo", "api-client", "certificates"]
+    }
+]

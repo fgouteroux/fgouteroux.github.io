@@ -1,0 +1,55 @@
+[
+    {
+        "grouping": "Languages",
+        "skills": [
+            {"name": "Golang", "devicon": "go"},
+            "Python",
+            "Ruby",
+            "Bash"
+        ]
+    },
+    {
+        "grouping": "Containers & Orchestration",
+        "skills": ["Kubernetes", "Docker", "LXC"]
+    },
+    {
+        "grouping": "Configuration Management",
+        "skills": [
+            {"name": "Puppet", "fontawesome": "fas fa-robot"},
+            "Ansible"
+        ]
+    },
+    {
+        "grouping": "Observability",
+        "skills": [
+            "Grafana",
+            "Prometheus",
+            {"name": "Grafana Mimir", "devicon": "grafana"},
+            {"name": "Grafana Loki", "devicon": "grafana"}
+        ]
+    },
+    {
+        "grouping": "Cloud & Infrastructure",
+        "skills": [
+            {"name": "Terraform"},
+            {"name": "AWS"},
+            "OpenStack"
+        ]
+    },
+    {
+        "grouping": "Operating Systems",
+        "skills": [{"name": "Linux (Redhat/Debian)", "devicon": "linux"}]
+    },
+    {
+        "grouping": "Databases",
+        "skills": ["MySQL", "PostgreSQL", "MongoDB"]
+    },
+    {
+        "grouping": "CI/CD",
+        "skills": [
+            "Jenkins",
+            {"name": "Gitlab-CI", "devicon": "gitlab"},
+            {"name": "GitHub Actions", "devicon": "github"}
+        ]
+    }
+]

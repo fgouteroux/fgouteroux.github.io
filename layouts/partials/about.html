@@ -1,0 +1,75 @@
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="mr-auto">
+
+              <h1 class="mb-5">{{ .Site.Params.firstName }}
+                <span class="text-primary">{{ .Site.Params.lastName }}</span>
+              </h1>
+
+            </div>
+
+        </div>
+        <div>
+          {{ .Content }}
+
+          <!-- Interests Section -->
+          <h2 class="mb-4 mt-5">Interests</h2>
+          <div class="row">
+            {{ range .Site.Data.interests }}
+            <div class="col-md-3 col-sm-6 mb-4 text-center">
+              <div class="interest-item">
+                <div class="interest-icon mb-3" style="color: #cd0100;">
+                  <i class="fa fa-{{ .icon }} fa-4x"></i>
+                </div>
+                <h5 class="mb-3">{{ .title }}</h5>
+                <p class="text-muted">{{ .description }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+
+          {{ if .Site.Params.showSocializations }}
+          <ul class="list-inline list-social-icons mb-0 mt-4">
+            {{ range .Site.Params.handles }}
+                <li class="list-inline-item">
+                  <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          {{ if .Site.Params.showCertifications }}
+          <h3 class="mt-3">{{ i18n "certifications" }}</h3>
+          <ul class="list-inline list-social-icons mb-0">
+            {{ range .Site.Data.certifications }}
+                <li class="list-inline-item">
+                  <a href="{{ .proof }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me">
+                    <img src="{{ .badge }}" width=75 />
+                  </a>
+                </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          {{ if .Site.Params.showBoards }}
+          <h3 class="mt-3 mb-0">{{ i18n "boards" }}</h3>
+          <ul class="list-inline list-social-icons mb-0 mt-0">
+            {{ range .Site.Data.boards }}
+                <li class="list-inline-item mt-0">
+                  <div class="mt-0 text-center" data-toggle="tooltip" title="{{ .description }}" data-offset="-30 -30">
+                    <a href="{{ .url }}" rel="external">
+                      <img src="{{ .logo }}" width=75 />
+                    </a><br />
+                    {{ .organization }}</div>
+                </li>
+                <li class="list-inline-item">&nbsp;</li>
+            {{ end }}
+          </ul>
+          {{end}}
+        </div>
+      </div>
+    </section>
