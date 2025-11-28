@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Automation",
+        "icon": "rocket",
+        "description": "There is nothing more frustrating and annoying than starting the same thing twice: Automation is the best answer."
+    },
+    {
+        "title": "Programming",
+        "icon": "code",
+        "description": "I love develop some modules or plugins regardless of the language like golang, python or config manager tools like ansible or puppet."
+    },
+    {
+        "title": "Development",
+        "icon": "laptop-code",
+        "description": "I like develop some cli tools or api, when needed, because it's simple projects that I can do quickly."
+    },
+    {
+        "title": "Constantly Learning",
+        "icon": "graduation-cap",
+        "description": "What's better than the rush of joy from learning and understanding something new?"
+    }
+]

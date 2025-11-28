@@ -1,0 +1,20 @@
+[
+    {
+        "school": "ESGI",
+        "degree": "Master",
+        "major": "Systèmes Réseaux et Sécurité",
+        "range": "2011 - 2013"
+    },
+    {
+        "school": "IUT Sénart",
+        "degree": "Licence Pro",
+        "major": "Administration Systèmes et Réseaux",
+        "range": "2010 - 2011"
+    },
+    {
+        "school": "Cogefi",
+        "degree": "BTS Informatique de Gestion",
+        "major": "Administrateur Réseaux",
+        "range": "2008 - 2010"
+    }
+]

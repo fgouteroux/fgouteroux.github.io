@@ -1,0 +1,39 @@
+<p>This file exists solely to respond to /search URL with the related <code class="language-plaintext highlighter-rouge">search</code> layout template.</p>
+
+<p>No content shown here is rendered, all content is based in the template layouts/page/search.html</p>
+
+<p>Setting a very low sitemap priority will tell search engines this is not important content.</p>
+
+<p>This implementation uses Fusejs, jquery and mark.js</p>
+
+<h2 id="initial-setup">Initial setup</h2>
+
+<p>Search  depends on additional output content type of JSON in config.toml</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[outputs]
+  home = ["HTML", "JSON"]
+</code></pre></div></div>
+
+<h2 id="searching-additional-fileds">Searching additional fileds</h2>
+
+<p>To search additional fields defined in front matter, you must add it in 2 places.</p>
+
+<h3 id="edit-layouts_defaultindexjson">Edit layouts/_default/index.JSON</h3>
+<p>This exposes the values in /index.json
+i.e. add <code class="language-plaintext highlighter-rouge">category</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+  "contents":null
+  ,
+  "tags":null,
+  "categories" : null,
+...
+</code></pre></div></div>
+
+<h3 id="edit-fusejs-options-to-search">Edit fuse.js options to Search</h3>
+<p><code class="language-plaintext highlighter-rouge">static/js/search.js</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>keys: [
+  "title",
+  "contents",
+  "tags",
+  "categories"
+]
+</code></pre></div></div>

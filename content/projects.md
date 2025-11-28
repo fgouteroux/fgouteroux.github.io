@@ -1,0 +1,6 @@
+---
+title: Projects
+layout: "projects"
+---
+
+Here are some of my key open-source projects that showcase my work in infrastructure automation and observability.
