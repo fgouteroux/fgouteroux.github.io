@@ -1,0 +1,44 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+  <div class="my-auto">
+    <h2 class="mb-5">Opensource projects</h2>
+
+    <div class="row">
+      {{ range $.Data.projects }}
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="{{ .url }}" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> {{ .name }}
+              </a>
+            </h4>
+            <p class="card-text">{{ .description }}</p>
+
+            <div class="mb-2">
+              <span class="badge badge-primary">{{ .language }}</span>
+            </div>
+
+            {{ if .topics }}
+            <div class="mb-2">
+              {{ range .topics }}
+              <span class="badge badge-secondary mr-1">{{ . }}</span>
+              {{ end }}
+            </div>
+            {{ end }}
+
+            <a href="{{ .url }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary mt-2">
+              View on GitHub <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="mt-5 text-center">
+      <p class="lead">
+        See more of my work on <a href="https://github.com/fgouteroux" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+{{- $fields := (index .Site.Params.vcardfields) -}}
+BEGIN:VCARD
+VERSION:3.0
+{{- if in $fields "name" }}
+N;CHARSET=UTF-8:{{ .Site.Params.lastName }};{{ .Site.Params.firstName }};;;
+FN;CHARSET=UTF-8:{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}
+{{- end }}
+{{- if in $fields "email" }}
+EMAIL;TYPE=INTERNET,PREF:{{ .Param "email" }}
+{{- end }}
+{{- if in $fields "image" }}
+PHOTO;TYPE=JPG;VALUE=URI:{{ .Site.Params.profileImage }}
+{{- end }}
+{{- if in $fields "org" }}
+ORG;CHARSET=UTF-8:{{ range first 1 .Site.Data.experience }}{{ .company }}{{ end }}
+{{- end }}
+{{- if in $fields "url" }}
+URL:{{ .Site.BaseURL }}
+{{- end }}
+END:VCARD

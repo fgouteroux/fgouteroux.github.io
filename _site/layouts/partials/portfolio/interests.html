@@ -1,0 +1,18 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+  <div class="my-auto">
+    <h2 class="mb-5">Interests</h2>
+    <div class="row">
+      {{ range .Data.interests }}
+      <div class="col-md-3 col-sm-6 mb-5 text-center">
+        <div class="interest-item">
+          <div class="interest-icon mb-3" style="color: #cd0100;">
+            <i class="fa fa-{{ .icon }} fa-4x"></i>
+          </div>
+          <h5 class="mb-3">{{ .title }}</h5>
+          <p class="text-muted">{{ .description }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
