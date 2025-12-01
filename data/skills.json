@@ -1,0 +1,75 @@
+[
+    {
+        "grouping": "Languages",
+        "skills": [
+            {"name": "Golang", "devicon": "go"},
+            "Python",
+            "Ruby",
+            "Bash"
+        ]
+    },
+    {
+        "grouping": "Observability & Monitoring",
+        "skills": [
+            {"name": "Grafana", "devicon": "grafana"},
+            {"name": "Prometheus", "devicon": "prometheus"},
+            "Grafana Mimir",
+            "Grafana Loki"
+        ]
+    },
+    {
+        "grouping": "Containers & Orchestration",
+        "skills": ["Kubernetes", "Docker", "Envoy Proxy"]
+    },
+    {
+        "grouping": "Infrastructure as Code",
+        "skills": [
+            {"name": "Terraform", "devicon": "terraform"},
+            {"name": "Puppet", "fontawesome": "fas fa-robot"},
+            "Ansible"
+        ]
+    },
+    {
+        "grouping": "Cloud Platforms",
+        "skills": [
+            {"name": "AWS", "devicon": "amazonwebservices"},
+            {"name": "GCP", "devicon": "googlecloud"}
+        ]
+    },
+    {
+        "grouping": "Security & Secrets Management",
+        "skills": [
+            "Vault"
+        ]
+    },
+    {
+        "grouping": "Message Brokers & Data Stores",
+        "skills": [
+            {"name": "RabbitMQ", "devicon": "rabbitmq"},
+            {"name": "Redis", "devicon": "redis"},
+            {"name": "Kafka", "devicon": "apachekafka"},
+            {"name": "MongoDB", "devicon": "mongodb"},
+            {"name": "S3", "devicon": "amazonwebservices"}
+        ]
+    },
+    {
+        "grouping": "CI/CD & Version Control",
+        "skills": [
+            {"name": "GitLab CI", "devicon": "gitlab"},
+            {"name": "GitHub Actions", "devicon": "github"}
+        ]
+    },
+    {
+        "grouping": "Big Data",
+        "skills": [
+            "Hadoop",
+            "Spark",
+            "Hive",
+            "Elasticsearch"
+        ]
+    },
+    {
+        "grouping": "Operating Systems",
+        "skills": [{"name": "Linux (RHEL/CentOS/Debian/Ubuntu)", "devicon": "linux"}]
+    }
+]

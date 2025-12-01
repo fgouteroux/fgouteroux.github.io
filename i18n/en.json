@@ -1,0 +1,41 @@
+{
+    "about": {
+        "other": "About"
+    },
+    "blog": {
+        "other": "Blog"
+    },
+    "certifications": {
+        "other": "Certifications"
+    },
+    "creations": {
+        "other": "Creations"
+    },
+    "contact": {
+        "other": "Contact"
+    },
+    "contributions": {
+        "other": "Open Source"
+    },
+    "education": {
+        "other": "Education"
+    },
+    "experience": {
+        "other": "Experience"
+    },
+    "publications": {
+        "other": "Presentations"
+    },
+    "skills": {
+        "other": "Skills"
+    },
+    "socialization": {
+        "other": "Socialization"
+    },
+    "boards": {
+        "other": "Boards & Volunteering"
+    },
+    "projects": {
+        "other": "Opensource projects"
+    }
+}

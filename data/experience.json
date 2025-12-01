@@ -1,0 +1,68 @@
+[
+    {
+        "role": "Platform Engineer / Automation Consultant",
+        "company": "Ingenico / Worldline",
+        "summary": "Built and maintain a secure multi-tenant observability stack using Grafana OSS products (Grafana, Mimir, Loki, Envoy).\n\n- Implemented multi-tenancy and secure authentication for Grafana Mimir using Envoy Proxy and Vault, providing cost savings over enterprise licensing. This solution was reused for logs with Loki (managed by another team)\n- Developed and published Terraform Providers for [Grafana Mimir](https://registry.terraform.io/providers/fgouteroux/mimir) and [Loki](https://registry.terraform.io/providers/fgouteroux/loki)\n- Created custom Prometheus exporters: [foreman_exporter](https://github.com/fgouteroux/foreman_exporter), [threshold_exporter](https://github.com/fgouteroux/threshold_exporter)\n- Enhanced upstream Prometheus exporters: [puppet-agent-exporter](https://github.com/fgouteroux/puppet-agent-exporter), [alertmanager-silences-exporter](https://github.com/fgouteroux/alertmanager-silences-exporter)\n- Developed [knot-exporter](https://github.com/CZ-NIC/knot-exporter) in Go as Prometheus exporter for Knot DNS, integrating C code with Go to interact with Knot DNS native libraries and transferred the project to CZ.NIC (the creator of Knot DNS and Python exporter). Continued contributing through pull requests for automated releases, unit tests, and quality improvements\n- Built [ACME Manager](https://github.com/fgouteroux/acmemanager), a comprehensive certificate lifecycle management solution with automatic renewal, cluster mode with leader election (Memberlist), Vault integration, DNS/HTTP challenge support, and Prometheus monitoring.\n- Developed Grantm, a tool providing enterprise-grade Grafana features similar to paid Grafana Enterprise version, including Okta user synchronization for rights/organizations\n- Created [Slam](https://github.com/fgouteroux/slam) application for Alertmanager notifications to Slack without webhook URLs for each Slack channel\n- Developed [Promk](https://github.com/fgouteroux/promk) (Prometheus Keepalive Agent) to reduce false positive alerts by sending Up metrics at given intervals, used with Grafana Agent (metrics, logs, traces collector)\n- Built Kubernetes DNS operator for managing DNS records (A, CNAME, SRV) based on container annotations, enabling external HAProxy load balancer usage and removing MetalLB complexity/limitations\n- Contributed to official projects: [grafana/agent](https://github.com/grafana/agent), [grafana/mimir](https://github.com/grafana/mimir), [grafana/terraform-provider-grafana](https://github.com/grafana/terraform-provider-grafana), [prometheus/prometheus](https://github.com/prometheus/prometheus), [prometheus/alertmanager](https://github.com/prometheus/alertmanager), [PagerDuty/terraform-provider-pagerduty](https://github.com/PagerDuty/terraform-provider-pagerduty)\n\n**Before 2022:**\n- Automated telemetry stack deployment (Metrictank, Kafka, Zookeeper, Graphite, Carbon-relay, Grafana) with operational maintenance and version upgrades\n- Automated monitoring stack deployment with Sensu (Terraform) and Moira\n- Developed Sensu assets for Linux system metrics collection in Go, Sensu handlers in Ruby and Go\n- Developed Terraform modules for RabbitMQ, Grafana, and other components\n- Created Terraform provider for managing VIPs and DNS records with Foreman SmartProxy\n- Contributed to external Terraform providers (Sensu, RestAPI)\n- Developed GIAUM application (Python Flask) for user creation requests\n- Developed MoldApi program in Go to provide API interfaces for tools without native API support\n\n**Technologies:** Go, Python, Ruby, Terraform, GitLab, Kubernetes, Grafana, Mimir, Loki, Prometheus, Envoy, Vault, Puppet, Redis, RabbitMQ, S3, ACME, Knot DNS",
+        "range": "December 2019 - Present"
+    },
+    {
+        "role": "Automation Consultant",
+        "company": "Ingenico",
+        "summary": "Advanced automation and infrastructure self-service initiatives for Dev and R&D teams.\n\n- Developed Python automation tools:\n  - **f5manager**: F5 configuration management with YAML files\n  - **foreman-clush**: Shell command execution with Foreman as server repository\n  - **itlab**: Web interface for user creation\n- **WSO2**: Automated HA deployment and configuration, developed Python microservice for WSO2 monitoring\n- **Datalake**: Automated deployment and configuration of multiple MapR clusters (LAB to production), managed operational maintenance, version upgrades, and scalability\n- Developed **maprapp** Python tool for deploying Spark applications on MapR clusters without local dependencies and with controlled Java library versions\n\n**Technologies:** MapR, Hadoop, Spark, Hive, Puppet, Python, Elasticsearch, Java, F5, WSO2",
+        "range": "March 2017 - December 2019"
+    },
+    {
+        "role": "Automation Consultant / Tech Lead",
+        "company": "BNP Paribas (CIB)",
+        "summary": "Created and delivered database, BI, and application products for fully automated platform. Led team of 4 people (Oct 2016 - Mar 2017) interfacing with security/storage/middleware/analytics teams and opening tools to existing teams.\n\n- Developed geo-localized orchestrator (initiated by Ahmet Demir) in Python for automated YAML workflows enabling simple, idempotent, efficient, secure and fast deployment with Flask, RabbitMQ, Celery, and MongoDB\n- Implemented HA Puppet server architecture for UK and FR sites configuration management\n- Built CI/CD platform with GitLab-CI and Docker\n- Developed Python Flask web application for GitLab project management\n- Created Ansible playbooks and callbacks\n- Refactored Python modules for providers (Infoblox IPAM, NSX Manager, vCenter, Ansible, Cleversafe, RHEL Satellite) and migrated to Python 3\n\n**Technologies:** Python, Puppet, Ansible, Flask, RabbitMQ, Celery, MongoDB, Docker, GitLab-CI, Linux",
+        "range": "February 2015 - March 2017"
+    },
+    {
+        "role": "VMware Consultant",
+        "company": "BNP Paribas (BP2I)",
+        "summary": "Infrastructure automation based on Dell EMC Vblock Systems.\n\n- Developed workflows with VRO/VRA\n- Created workflows with Cisco UCS for automated server creation and configuration\n\n**Technologies:** VRO/VRA, Cisco UCS",
+        "range": "October 2014 - February 2015"
+    },
+    {
+        "role": "AWS Consultant",
+        "company": "Veolia",
+        "summary": "Extended Veolia infrastructure on Amazon as part of proof of concept.\n\n- Defined technical architecture\n- Supported VM migration to AWS\n- Implemented inter-region VPN failover\n- Python scripting\n- Documentation and knowledge transfer\n\n**Technologies:** AWS, Python",
+        "range": "July 2014 - October 2014"
+    },
+    {
+        "role": "Puppet Consultant",
+        "company": "Deveryware",
+        "summary": "Server configuration automation with Puppet for new production platform deployment.\n\n- Implemented development environment with Vagrant\n- Developed Puppet roles/profiles and specific modules\n- Automated integration testing with Jenkins and Beaker\n- Created technical documentation\n\n**Technologies:** Puppet, Beaker, Jenkins, Vagrant",
+        "range": "May 2014 - September 2014"
+    },
+    {
+        "role": "OpenStack Consultant",
+        "company": "ERDF",
+        "summary": "Implemented OpenStack and Puppet model for ERDF infrastructure automation.\n\n- Assisted in technical environment preparation\n- Installed and configured solutions for virtual platform deployment and extended to physical platforms\n- Tested, validated, and presented solutions\n\n**Technologies:** OpenStack, Puppet",
+        "range": "April 2014 - May 2014"
+    },
+    {
+        "role": "Cloud Consultant",
+        "company": "Publicis",
+        "summary": "Implemented private cloud offering using HP solutions.\n\n- Gathered functional requirements\n- Defined technical architecture\n- Installed solutions and developed server provisioning automation flows\n- Provided debugging assistance\n- Transferred knowledge and created technical documentation\n\n**Technologies:** HP OO 9, HP CSA 3.2",
+        "range": "February 2014 - April 2014"
+    },
+    {
+        "role": "Technical Consultant",
+        "company": "Integra",
+        "summary": "Implemented fifty IAAS offerings for enterprise clients as part of Integra's managed services and hosting activities.\n\n- Deployed HP OO and HP CSA solutions\n- Developed automation flows and integrated services into web portal\n- Assisted with production deployment\n- Created documentation and transferred knowledge to technical teams\n\n**Technologies:** HP OO, HP CSA",
+        "range": "November 2013 - February 2014"
+    },
+    {
+        "role": "Systems and Network Administrator",
+        "company": "Neoxia",
+        "summary": "**Network and Security:**\n- Studied OpenStack project, implemented private cloud and tested components like Network (on-demand network management) and Cinder (persistent disk service)\n- Analyzed UFCV network after virus infection, detected network attacks with Cyberoam UTM IPS module, identified infected computers, and created security report with recommendations\n- Migrated Neoxia network infrastructure, managed patch panel, configured switches and created VLANs, integrated new storage server with operational procedures, phase preparation and analysis\n- Created secure infrastructure on Amazon Cloud for client\n- Secured and hardened Windows 2008 server, managed network flows, created functional specifications, technical documentation and training\n- Deployed secure PHP site with SSL certificate and email sending using Amazon SES\n\n**Development:**\n- Developed PHP application for calculating Amazon instance costs (FuelPHP Framework, AWS API, JSON)\n- Performed load testing missions to validate DSI and C3S applications for 2013 GIP-MDS campaign\n- Developed and enhanced DADS-U statistics tracking for 2012 and 2013 for GIP-MDS (VB, Oracle)\n\n**Systems:**\n- Implemented Nagios-based monitoring solution for critical servers and network equipment\n- Deployed NetFlow Analyzer for monitoring inbound/outbound traffic\n- Installed and integrated new virtualization server into existing network\n- Managed VMs and backups\n- Studied and implemented file server storage capacity expansion\n- Redesigned and improved Symantec tape backup rules and created tape management plan\n- Migrated PC fleet to Mac, researched and integrated new Mac software for consultant needs\n- Provided user assistance, troubleshooting and workstation reinstallation\n- Developed Visual Basic application for tracking 2011 DADS-U statistics for GIP-MDS\n- Conducted IT infrastructure audit for Montpellier School of Architecture (ENSAM)\n\n**Technologies:** OpenStack, Nagios, NetFlow, Symantec, AWS, Windows, Linux, PHP, VB, Oracle, Cyberoam, VMware",
+        "range": "September 2010 - October 2013"
+    },
+    {
+        "role": "Network Technician",
+        "company": "SICK France",
+        "summary": "- Responsible for intranet management\n- Administered and maintained Windows servers\n- Updated IT inventory (GLPI) and remote application deployment (OCS)\n- Implemented Linux server for network-based workstation backup and restoration\n- Deployed Atempo Live Backup for real-time data backup\n- Created online catalog request website for customers\n- Developed PHP module for expense report payroll\n- Partially redesigned intranet\n- Provided user assistance, troubleshooting and workstation reinstallation\n\n**Technologies:** Windows Server, Linux, GLPI, OCS, Atempo Live Backup, PHP",
+        "range": "September 2008 - August 2010"
+    }
+]

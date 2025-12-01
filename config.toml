@@ -1,0 +1,44 @@
+title = "François Gouteroux"
+baseURL = "https://fgouteroux.github.io/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Paris, France"
+email = "francois.gouteroux@gmail.com"
+favicon = "/img/favicon.ico"
+firstName = "François"
+lastName = "Gouteroux"
+profileImage = "https://avatars.githubusercontent.com/u/1460473?v=4"
+showContact = true
+showQr = true
+sections = ["interests","skills","experience","education","projects","publications"]
+vcardfields = ["name", "email", "image", "org", "url"]
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://linkedin.com/in/francois-gouteroux"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/fgouteroux"
+
+[[params.handles]]
+    name = "X (Twitter)"
+    link = "https://x.com/fgouteroux"
+    icon = "twitter"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
